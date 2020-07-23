@@ -17,7 +17,7 @@ Simple Windows Forms project.
     
   ```sh
   ...
-     <connectionStrings>
+    <connectionStrings>
 		<add name="NotebookDbConnection" connectionString="server=.\SQLEXPRESS;Initial Catalog=NotebookMasterDb; Integrated Security=true;" providerName="System.Data.SqlClient"/>
 	</connectionStrings>
   ...
@@ -28,7 +28,7 @@ Simple Windows Forms project.
   
   ```sh
   ...
-     <appSettings>
+    <appSettings>
 		<add key="checkBirthdayPeriodMs" value="10000"/> <!-- Milliseconds -->
 	</appSettings>
   ...
