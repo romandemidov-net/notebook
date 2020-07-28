@@ -366,7 +366,7 @@ namespace Notebook.Forms
                 return;
             }
 
-            var people = _personService.GetFilteredPersonWithTheirCountries(PersonFilter)
+            var people = _personService.GetFilteredPeopleWithTheirCountries(PersonFilter)
                 .OrderBy(p => p.Name)
                 .ThenBy(p => p.LastName);
 

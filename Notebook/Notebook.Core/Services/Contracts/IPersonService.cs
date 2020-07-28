@@ -25,10 +25,10 @@ namespace Notebook.Core.Services.Contracts
         IEnumerable<DtoModels.Person> GetAllPeopleWithTheirCountries();
 
         /// <summary>
-        /// Gets the filtered person with their countries.
+        /// Gets the filtered people with their countries.
         /// </summary>
         /// <param name="filter">The filter.</param>
         /// <returns></returns>
-        IEnumerable<DtoModels.Person> GetFilteredPersonWithTheirCountries(DtoModels.PersonFilter filter);
+        IEnumerable<DtoModels.Person> GetFilteredPeopleWithTheirCountries(DtoModels.PersonFilter filter);
     }
 }

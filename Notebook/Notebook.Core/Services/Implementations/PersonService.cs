@@ -47,11 +47,11 @@ namespace Notebook.Core.Services.Implementations
         }
 
         /// <summary>
-        /// Gets the filtered person with their countries.
+        /// Gets the filtered people with their countries.
         /// </summary>
         /// <param name="filter">The filter.</param>
         /// <returns></returns>
-        public IEnumerable<DtoModels.Person> GetFilteredPersonWithTheirCountries(DtoModels.PersonFilter filter)
+        public IEnumerable<DtoModels.Person> GetFilteredPeopleWithTheirCountries(DtoModels.PersonFilter filter)
         {
             var lastName = filter.LastName;
             var startBirthday = filter.StartBirthday;
