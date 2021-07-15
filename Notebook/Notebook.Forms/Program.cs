@@ -5,6 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Notebook.Forms
 {
+    /// <summary>
+    /// Main program class.
+    /// </summary>
     static class Program
     {
         /// <summary>
